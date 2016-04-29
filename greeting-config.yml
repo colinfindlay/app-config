@@ -6,8 +6,9 @@ management:
     enabled: false # turn of securing the actuator endpoints
 
 logging: 
-  io:
-   pivotal: DEBUG
+  level:
+    io:
+       pivotal: DEBUG
 
 greeting: 
   displayFortune: false
